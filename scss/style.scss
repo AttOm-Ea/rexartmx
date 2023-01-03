@@ -76,7 +76,7 @@ body[data-hijacking="on"] {
 
 		&::before {
 			/* alert -> all scrolling effects are not visible on small devices */
-			content: 'Effects not visible on mobile!';
+			content: '';
 			position: absolute;
 			width: 100%;
 			text-align: center;
