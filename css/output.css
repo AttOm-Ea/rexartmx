@@ -1458,6 +1458,42 @@ video {
     background-position: center left 2.8rem;
   }
 
+  .md\:bg-\[center_top_1rem\] {
+    background-position: center top 1rem;
+  }
+
+  .md\:bg-\[center_top_2rem\] {
+    background-position: center top 2rem;
+  }
+
+  .md\:bg-\[center_top_6rem\] {
+    background-position: center top 6rem;
+  }
+
+  .md\:bg-\[center_top_5rem\] {
+    background-position: center top 5rem;
+  }
+
+  .md\:bg-\[center_top_-5rem\] {
+    background-position: center top -5rem;
+  }
+
+  .md\:bg-\[center_top_-4rem\] {
+    background-position: center top -4rem;
+  }
+
+  .md\:bg-\[center_top_-3rem\] {
+    background-position: center top -3rem;
+  }
+
+  .md\:bg-\[center_top_-2rem\] {
+    background-position: center top -2rem;
+  }
+
+  .md\:bg-\[top_0rem_left_12rem\] {
+    background-position: top 0rem left 12rem;
+  }
+
   .md\:p-9 {
     padding: 2.25rem;
   }
