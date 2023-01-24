@@ -4,6 +4,9 @@ module.exports = {
   content: [
     './index.html',
     './design.html',
+    './web.html',
+    './mkt.html',
+    './media.html'
     ],
     theme: {
     },

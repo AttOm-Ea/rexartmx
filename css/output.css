@@ -755,10 +755,6 @@ video {
   width: 33.333333% !important;
 }
 
-.w-full {
-  width: 100% !important;
-}
-
 .cursor-pointer {
   cursor: pointer !important;
 }
@@ -847,11 +843,6 @@ video {
   background-color: rgb(21 128 61 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
-}
-
 .bg-\[url\(\'\.\.\/img\/logo-04\.webp\'\)\] {
   background-image: url('../img/logo-04.webp') !important;
 }
@@ -866,10 +857,6 @@ video {
 
 .bg-\[url\(\'\.\.\/img\/logo-22\.webp\'\)\] {
   background-image: url('../img/logo-22.webp') !important;
-}
-
-.bg-\[url\(\'\.\.\/img\/1024x600-01\.webp\'\)\] {
-  background-image: url('../img/1024x600-01.webp') !important;
 }
 
 .bg-\[url\(\'\.\.\/img\/360x640-01\.webp\'\)\] {
