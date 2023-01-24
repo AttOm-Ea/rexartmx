@@ -3,6 +3,7 @@ module.exports = {
   important: true,
   content: [
     './index.html',
+    './design.html',
     ],
     theme: {
     },
