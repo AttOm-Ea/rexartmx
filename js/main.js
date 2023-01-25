@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 	//variables
 	var hijacking= $('body').data('hijacking'),
 		animationType = $('body').data('animation'),
