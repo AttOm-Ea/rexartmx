@@ -301,7 +301,7 @@
 				var scrollHeight = $(document).height();
 				var scrollPosition = $(window).height() + $(window).scrollTop();
 				let test = (scrollHeight - scrollPosition) / scrollHeight ;
-				if (test == 0 ){
+				if (test <= 0.05 ){
 					instancesOne[0].open();
 					$('#idbtFlot').addClass("hidden");
 					switchOne = 1;
