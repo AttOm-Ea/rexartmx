@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
     		//bind the animation to the window scroll event, arrows click and keyboard
 			if( hijacking == 'on' ) {
 				initHijacking();
-				$(window).on('DOMMouseScroll mousewheel', scrollHijacking);
+				// $(window).on('DOMMouseScroll mousewheel', scrollHijacking);
 			} else {
 				scrollAnimation();
 				$(window).on('scroll', scrollAnimation);

@@ -20,6 +20,7 @@
 
 
 <body data-hijacking="on" data-animation="gallery">
+	
 <!-- 																		Home 																								-->
 	<section class="cd-section visible">
 		<div class="h-full w-full p-3 md:p-9">
@@ -273,13 +274,12 @@
 			</li>
 		</ul>
 	</div>
-
 <div>
-		<ul class="cd-vertical-nav">
-			<li><a href="#0" class="cd-prev inactive">Next</a></li>
-			<li><a href="#0" class="cd-next">Prev</a></li>
-		</ul>
-	</div> <!-- .cd-vertical-nav -->
+	<ul class="cd-vertical-nav">
+		<li><a href="#0" id="testbtn" class="cd-prev inactive">Next</a></li>
+		<li><a href="#0"  class="cd-next">Prev</a></li>
+	</ul>
+</div> <!-- .cd-vertical-nav -->
 	<script src="js/jquery-2.1.4.js"></script>
 	<script src="js/velocity.min.js"></script>
 	<script src="js/velocity.ui.min.js"></script>
@@ -313,7 +313,30 @@
 				}
 			});
 
+			let verticalNav = $('.cd-vertical-nav'),
+			positionDia = 0,
+			prevArrow = verticalNav.find('a.cd-prev'),
+    		nextArrow = verticalNav.find('a.cd-next');
+
+			prevArrow.on("click", function() {
+				positionDia --;
+				visibilityDia();
+			});	
+
+			nextArrow.on("click", function() {
+				positionDia ++;
+				visibilityDia();
+			});	
 			
+			function visibilityDia() {
+				if(positionDia == 5){
+					instancesOne[0].open();
+					$('#idbtFlot').addClass("hidden");
+				}else if (positionDia == 4){
+					$('#idbtFlot').removeClass("hidden");
+					instancesOne[0].close();	
+				}
+			}
 			
 
 			var elems3 = document.querySelectorAll('.sidenav');
